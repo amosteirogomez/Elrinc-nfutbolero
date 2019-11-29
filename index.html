@@ -14,29 +14,15 @@
   <li><a href="Kylian Mbappe.html">Kylian Mbappe</a></li>
   <li><a href="Ligas.html">Ligas</a></li>
 </ul>
-<html>
-	<head>
 
-		<title> los mejores jugadores </title>
-		<link rel="stylesheet" href="../estilos.css">
-	</head>
-	<body>
-		<h3>Pulsa el botón del buscador o pulsa Enter</h3>
+<h3>Pulsa el botón del buscador o pulsa Enter</h3>
 <p>
 Presione la tecla "Enter" dentro del campo de entrada para activar el botón.</p>
 
 <input id="myInput" value="Some text..">
 <button id="myBtn" onclick="javascript:alert('¡Bienvenidos a mi página web donde disfrutaremos viendo el mundo del fútbol!')">Pulsa aquí</button>
 
-<script>
-var input = document.getElementById("myInput");
-input.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
-   event.preventDefault();
-   document.getElementById("myBtn").click();
-  }
-});
-</script>
+
 
 		<h2> Lo mejor del fútbol </h2>
 		<h3> Pagina donde hablaremos sobre lo mejor de nuestro deporte </h3> 
@@ -69,19 +55,8 @@ input.addEventListener("keyup", function(event) {
     <div class="text">Kylian Mbappe</div>
   </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
+ 
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
 
-<p id="demo"></p>
 	</body>
 </html>
